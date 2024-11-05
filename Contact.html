@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devop360 Demo -Dream job today-</title>
+    <!--style link-->
+    <link rel="stylesheet" href="./contact.css">
+    <!--font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="main-container">
+        <div id="sidebarBgOverlay" class="filterBg" onclick="closedSidebar()"></div>
+        <!--scroll-to-top-->
+        <div class="scroll-to-top">
+            <svg width="28" height="28" fill="black" viewBox="0 0 256 256">
+                <path
+                    d="M222.138,91.475l-89.6-89.6c-2.5-2.5-6.551-2.5-9.051,0l-89.6,89.6c-2.5,2.5-2.5,6.551,0,9.051s6.744,2.5,9.244,0L122,21.85  V249.6c0,3.535,2.466,6.4,6,6.4s6-2.865,6-6.4V21.85l78.881,78.676c1.25,1.25,2.992,1.875,4.629,1.875s3.326-0.625,4.576-1.875  C224.586,98.025,224.638,93.975,222.138,91.475z">
+                </path>
+            </svg>
+        </div>
+    <!--sidebar start-->
+    <div class="side-container">
+        <div class="sidebar-inner">
+            <div class="sidebar-items">
+                <ul>
+                    <li><a href="/" class="active">Home</a></li>
+                    <li><a href="Jobs.html">Jobs</a></li>
+                    <li><a href="About.html">About Us</a></li>
+                    <li><a href="COntact.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-btns">
+                <button class="sidebar-btn-1">Login</button>
+                <button class="sidebar-btn-2">Register</button>
+
+
+            </div>
+        </div>
+    </div>
+    <!--sidebar end-->
+        <div class="hero-container">
+            <!--hero background overlay-->
+            <div class="hero-bg-overlay"></div>
+            <!--Navbar-->
+            <nav class="header-container">
+
+                <div class="header-wrapper">
+                    <div class="header-logo">
+                        <img src="images\Group.png" alt="nav-logo">
+                        <span>Devop360 Demo</span>
+                    </div>
+                    <div class="header-items">
+                        <ul>
+                            <li><a href="/" class="active">Home</a></li>
+                            <li><a href="Jobs.html">Jobs</a></li>
+                            <li><a href="About.html" target="_blank">About Us</a></li>
+                            <li><a href="COntact.html" target="_blank">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-btns">
+                        <button class="header-btn-1">Login</button>
+                        <button class="header-btn-2">Register</button>
+                        <div class="hamburger-btn">
+                            <button class="sideBar-btn" id="toggle-btn"><i class="fa-solid fa-bars"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="hero-title">
+                <h1>Contact Us</h1>
+            </div>
+            <!--Navbar end-->
+        </div>
+        <div class="container">
+            <div class="logo-section">
+                <div class="left">
+                    <div class="logo"><img src="images\logos.png" alt=""></div>
+                    <div class="logo">
+                        <img src="images\logos (1).png" alt="">
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="logo"><img src="images\logos (2).png" alt=""></div>
+                    <div class="logo"><img src="images\logos (3).png" alt=""></div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <div class="inner">
+                    <div class="form-heading">
+                        <h3>Contact Us</h3>
+                        <h1>Get in touch</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, esse.</p>
+                    </div>
+                    <form action="">
+                        <div class="form-fields">
+                            <div class="field-box">
+                                <label for="">Name <sup>*</sup></label>
+                                <input type="text" name="" id="" required placeholder="Your Name">
+                            </div>
+                            <div class="field-box">
+                                <label for="">Email <sup>*</sup></label>
+                                <input type="text" name="" id="" required placeholder="Your Email">
+                            </div>
+                        </div>
+                        <div class="form-fields">
+                            <div class="field-box">
+                                <label for="">Address <sup>*</sup></label>
+                                <input type="text" name="" id="" required placeholder="Your Address">
+                            </div>
+                            <div class="field-box">
+                                <label for="">Phone <sup>*</sup></label>
+                                <input type="text" name="" id="" required placeholder="Your Phone">
+                            </div>
+                        </div>
+
+                        <div class="field-box">
+                            <label for="">Subject <sup>*</sup></label>
+                            <input type="text" name="" id="" required placeholder="Your Subject">
+                        </div>
+
+
+                        <div class="field-box">
+                            <label for="">Content <sup>*</sup></label>
+                            <textarea name="" id="" rows="7" placeholder="Write your message here"></textarea>
+                        </div>
+                        <div class="checkboxField">
+
+                            <input type="checkbox" name="" id="privacy">
+                            <label for="privacy">I agree to the terms and Privacy Policy</label>
+                        </div>
+                        <div class="form-btn">
+                            <button type="submit"><i class="fa-regular fa-envelope"></i>Send Message</button>
+                        </div>
+
+                </div>
+                </form>
+            </div>
+            <div class="job-locations-box">
+                <div class="job-inner row">
+                    <div class="left col-md-3">
+                        <div class="left-box1"><img src="images\briefcase(3) 1.png" alt="">
+                            <h2>JobBox Corporation</h2>
+                        </div>
+                        <div class="left-box2">
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                            <p>Lorem ipsum dolor sit amet.</p>
+                           
+                        </div>
+                        <div class="left-box3">View Map</div>
+                    </div>
+                    <div class="right col-md-9">
+                        <div class="right-top row">
+                            <div class="box  col-sm-4" >
+                                <h2>London</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dicta!</p>
+                            </div>
+                            <div class="box col-sm-4">
+                                <h2>London</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dicta!</p>
+                            </div>
+                            <div class="box col-sm-4">
+                                <h2>London</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dicta!</p>
+                            </div>
+                        </div>
+                        <div class="right-bottom row">
+                            <div class="box  col-sm-4">
+                                <h2>London</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dicta!</p>
+                            </div>
+                            <div class="box col-sm-4">
+                                <h2>London</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dicta!</p>
+                            </div>
+                            <div class="box col-sm-4">
+                                <h2>London</h2>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, dicta!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe-container">
+                <div class="subscribe-wrapper">
+                    <div class="subscribe-inner">
+                        <div class="subscribe-box1">
+                            <div class="box1-pic"></div>
+                            <div class="box2-pic"></div>
+                            <div class="box3-pic"></div>
+                        </div>
+                        <div class="subscribe-box2">
+                            <div class="subscribe-heading">
+                                <h1>New Things Will Always Update Regularly</h1>
+                            </div>
+                            <div class="subscribe-form">
+                                <form action="">
+                                    <div class="inp-box">
+                                        <span> <i class="fa-solid fa-envelope"></i></span>
+                                        <input type="text" name="" id="" placeholder="Enter your Email">
+                                    </div>
+                                    <div class="btn-box">
+                                        <button><span><i class="fi fi-rr-badge-check"></i></span> Subscribe</button>
+
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="subscribe-box1">
+                            <div class="box1-pic"></div>
+                            <div class="box2-pic"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--footer start-->
+            <div class="footer-container">
+                <div class="footer-wrapper">
+                    <div class="foot-box1">
+                        <p><span class="" style="color: black; font-size: 20px;">Demo </span>Lorem ipsum, dolor sit amet
+                            consectetur adipisicing elit. Totam blanditiis odio
+                            cum dicta labore placeat illo magnam voluptate quos repudiandae?</p>
+                        <div class="foot-contact-icons">
+                            <button><i class="fa-brands fa-facebook"></i></button>
+                            <button><i class="fa-brands fa-linkedin"></i></button>
+                            <button><i class="fa-brands fa-twitter"></i></button>
+                        </div>
+                    </div>
+                    <div class="foot-box2 foot-items">
+                        <h1>Resource</h1>
+                        <ul>
+                            <li><a href="">About Us</a></li>
+                            <li><a>Our Team</a></li>
+                            <li><a href="">Products</a></li>
+                            <li><a href="">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="foot-box3  foot-items">
+                        <h1>Community</h1>
+                        <ul>
+                            <li><a href="">Feature</a></li>
+                            <li><a href="">Pricing</a></li>
+                            <li><a href="">Credit</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </div>
+                    <div class="foot-box4  foot-items">
+                        <h1>Quick links</h1>
+                        <ul>
+                            <li><a href="">iOS</a></li>
+                            <li><a href="">Android</a></li>
+                            <li><a href="">Microsoft</a></li>
+                            <li><a href="">Desktop</a></li>
+                        </ul>
+                    </div>
+                    <div class="foot-box5  foot-items">
+                        <h1>More</h1>
+                        <ul>
+                            <li><a href="">Cookie Policy</a></li>
+                            <li><a href="">Terms</a></li>
+                            <li><a href="">FAQ</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+            <!--footer end-->
+        </div>
+    </div>
+    </div>
+    <script src="filterCards.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
