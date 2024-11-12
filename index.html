@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devop360 Demo -Dream job today-</title>
+    <!--style link-->
+    <link rel="stylesheet" href="./style.css">
+    <!--font Awesome Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="cursor-circle"></div>
+
+        <div id="sidebarBgOverlay" class="filterBg" onclick="closedSidebar()"></div>
+        <!--sidebar start-->
+        <div class="side-container">
+            <div class="sidebar-inner">
+                <div class="sidebar-items">
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="Jobs.html">Jobs</a></li>
+                        <li><a href="About.html">About Us</a></li>
+                        <li><a href="Contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-btns">
+                    <button class="sidebar-btn-1">Login</button>
+                    <button class="sidebar-btn-2">Register</button>
+
+
+                </div>
+            </div>
+        </div>
+        <!--sidebar end-->
+        <!--scroll-to-top-->
+        <div class="scroll-to-top">
+            <svg width="28" height="28" fill="black" viewBox="0 0 256 256">
+                <path
+                    d="M222.138,91.475l-89.6-89.6c-2.5-2.5-6.551-2.5-9.051,0l-89.6,89.6c-2.5,2.5-2.5,6.551,0,9.051s6.744,2.5,9.244,0L122,21.85  V249.6c0,3.535,2.466,6.4,6,6.4s6-2.865,6-6.4V21.85l78.881,78.676c1.25,1.25,2.992,1.875,4.629,1.875s3.326-0.625,4.576-1.875  C224.586,98.025,224.638,93.975,222.138,91.475z">
+                </path>
+            </svg>
+        </div>
+        <!--Hero section-->
+        <div class="hero-container">
+            <div class="hero-bg-overlay"></div>
+            <!--Navbar-->
+            <nav class="header-container">
+
+                <div class="header-wrapper">
+                    <div class="header-logo">
+                        <img src="images\Group.png" alt="nav-logo">
+                        <span>Devop360 Demo</span>
+                    </div>
+                    <div class="header-items">
+                        <ul>
+                            <li><a href="index.html" class="active">Home</a></li>
+                            <li><a href="Jobs.html">Jobs</a></li>
+                            <li><a href="About.html">About Us</a></li>
+                            <li><a href="Contact.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <div class="header-btns">
+                        <button class="header-btn-1">Login</button>
+                        <button class="header-btn-2">Register</button>
+                        <div class="hamburger-btn">
+                            <button class="sideBar-btn" id="toggle-btn"><i class="fa-solid fa-bars"></i></button>
+                        </div>
+
+                    </div>
+                    <!--sideBar-btn-->
+                </div>
+            </nav>
+            <!--Navbar end-->
+            <div class="hero-wrapper">
+                <div class="hero-content-wrapper">
+                    <div class="hero-content-inner">
+                        <div class="hero-content-header">
+                            <h1>Find Your Dream Job Today!</h1>
+                            <p>Connecting Talent with Opportunity: Your Gateway to Career Success</p>
+                        </div>
+                        <!--searchbar-->
+                        <div class="searchbar-container">
+                            <div class="searchbar-inner">
+                                <form action="">
+                                    <div class="searchbar-field">
+                                        <input type="text" name="" id="" placeholder="job title or company">
+                                    </div>
+                                    <div class="searchbar-field">
+                                        <select name="" id="">
+                                            <option value="search Location">Select Location</option>
+                                            <option value="">Karachi</option>
+                                            <option value="">Lahore</option>
+                                        </select>
+
+                                    </div>
+                                    <div class="searchbar-field">
+                                        <select name="" id="" value="">
+                                            <option value="search Location">Select Category</option>
+                                            <option value="">Web development</option>
+                                            <option value="">Graphics designer</option>
+                                        </select>
+                                    </div>
+                                    <div class="searchbar-field search-btn">
+                                        <i class="fa-solid fa-magnifying-glass"></i>
+                                        <input type="submit" name="" id="" value="Search">
+                                    </div>
+                                </form>
+                            </div>
+
+                            <!-- <div class=" search-btn">
+
+                                
+                                <span>Search a Job</span>
+
+                            </div> -->
+                        </div>
+                        <!--hero counter-->
+                        <div class="hero-counter">
+
+                            <div class="counter-box">
+                                <div class="counter-btn"> <i class="fa-solid fa-users"></i></div>
+                                <div class="counter-text">
+                                    <h2 class="num">1200</h2>
+                                    <span>Jobs</span>
+                                </div>
+                            </div>
+
+                            <div class="counter-box">
+                                <div class="counter-btn"><i class="fa-solid fa-briefcase"></i></div>
+                                <div class="counter-text">
+                                    <h2 class="num">100</h2>
+                                    <span>Candidates</span>
+                                </div>
+                            </div>
+                            <div class="counter-box">
+                                <div class="counter-btn"><i class="fa-solid fa-building"></i></div>
+                                <div class="counter-text">
+                                    <h2 class="num">150</h2>
+                                    <span>Companies</span>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="hero-logo-section">
+            <div class="logo-pic">
+                <img src="images\spotify.png" alt="">
+            </div>
+            <div class="logo-pic">
+                <img src="images\logos.png" alt="">
+            </div>
+            <div class="logo-pic">
+                <img src="images\logo (1).png" alt="">
+            </div>
+            <div class="logo-pic">
+                <img src="images\logo (2).png" alt="">
+            </div>
+            <div class="logo-pic">
+                <img src="images\logo (3).png" alt="">
+            </div>
+        </div>
+        <!--Hero section end-->
+        <!--categories-->
+        <div class="categories-container">
+            <div class="browse-header">
+                <h1>Browse by Category</h1>
+                <p>Find the job that's perfect for you about 800+ new jobs everyday</p>
+            </div>
+            <div class="category-cards-wrapper">
+                <div class="category-card card1">
+
+                    <img src="images\person.jpg" alt="">
+
+                    <div class="category-text">
+                        <h3>Human Resource</h3>
+                        <p>11 Jobs Available</p>
+                    </div>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+                <div class="category-card card1">
+
+                    <img src="images\document.png" alt="">
+
+                    <div class="category-text">
+                        <h3>Content Writer</h3>
+                        <p>48 Jobs Available</p>
+                    </div>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+                <div class="category-card card1">
+
+                    <img src="images\document.png" alt="">
+
+                    <div class="category-text">
+                        <h3>Marketing & Sale</h3>
+                        <p>11 Jobs Available</p>
+                    </div>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+                <div class="category-card card1">
+
+                    <img src="images\document.png" alt="">
+
+                    <div class="category-text">
+                        <h3>Finance</h3>
+                        <p>11 Jobs Available</p>
+                    </div>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+
+                <div class="category-card card1">
+
+                    <img src="images\document.png" alt="">
+
+                    <div class="category-text">
+                        <h3>Management</h3>
+                        <p>11 Jobs Available</p>
+                    </div>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+                <div class="category-card card1">
+
+                    <img src="images\document.png" alt="">
+
+                    <div class="category-text">
+                        <h3>Market Research</h3>
+                        <p>11 Jobs Available</p>
+                    </div>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+                <div class="category-card card1">
+
+                    <img src="images\document.png" alt="">
+
+                    <div class="category-text">
+                        <h3>Customer Help</h3>
+                        <p>11 Jobs Available</p>
+                    </div>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+                <div class="category-card card1">
+
+                    <img src="images\document.png" alt="">
+
+                    <div class="category-text">
+                        <h3>Software</h3>
+                        <p>11 Jobs Available</p>
+                    </div>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+                <div class="category-card card1">
+
+                    <img src="images\document.png" alt="">
+
+                    <div class="category-text">
+                        <h3>Software</h3>
+                        <p>11 Jobs Available</p>
+                    </div>
+                    <div class="go-corner" href="#">
+                        <div class="go-arrow">
+                            →
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--Jobs Location-->
+        <div class="Location-container">
+            <div class="Location-header">
+                <h1>Jobs by Location</h1>
+                <p>Find your favourite jobs and get the benefits of yourself</p>
+            </div>
+            <div class="Location-cards-wrapper">
+                <div class="Location-card">
+                    <div class="card-pic">
+                        <img src="images\paris-tower.jpeg" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>Paris,France</h2>
+                    </div>
+                    <div class="card-des">
+                        <p>3 companies</p>
+                        <p>8 jobs</p>
+                    </div>
+                </div>
+                <div class="Location-card">
+                    <div class="card-pic">
+                        <img src="images\london-bridge.jpeg" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>London, England</h2>
+                    </div>
+                    <div class="card-des">
+                        <p>4 companies</p>
+                        <p>5 jobs</p>
+                    </div>
+                </div>
+                <div class="Location-card">
+                    <div class="card-pic">
+                        <img src="images\New york-statue.jpeg" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>New York, USA</h2>
+                    </div>
+                    <div class="card-des">
+                        <p>3 companies</p>
+                        <p>5 jobs</p>
+                    </div>
+                </div>
+                <div class="Location-card">
+                    <div class="card-pic">
+                        <img src="images\holland.jpeg" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>New York, Holland</h2>
+                    </div>
+                    <div class="card-des">
+                        <p>3 companies</p>
+                        <p>9 jobs</p>
+                    </div>
+                </div>
+                <div class="Location-card">
+                    <div class="card-pic">
+                        <img src="images\denmark.jpeg" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>Copenhagen, Denmark </h2>
+                    </div>
+                    <div class="card-des">
+                        <p>4 companies</p>
+                        <p>11 jobs</p>
+                    </div>
+                </div>
+                <div class="Location-card">
+                    <div class="card-pic">
+                        <img src="images\germany.jpg" alt="">
+                    </div>
+                    <div class="card-title">
+                        <h2>Berlin, Germany </h2>
+                    </div>
+                    <div class="card-des">
+                        <p>4 companies</p>
+                        <p>11 jobs</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Blog section-->
+        <div class="blog-container">
+            <div class="blog-header">
+                <h1>News and Blog</h1>
+                <p>Get the latest news, updates and tips</p>
+            </div>
+            <div class="blog-cards-wrapper">
+                <div class="blog-card">
+                    <div class="blog-card-pic">
+                        <img src="images\blog-pic1.jpg" alt="">
+                    </div>
+                    <div class="blog-btns">
+                        <button>New</button>
+                        <button>Event</button>
+                    </div>
+                    <div class="blog-title">
+                        <h3>Interview Question: Why you Donot Have a Deagree?</h3>
+                    </div>
+                    <div class="blog-des">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis quia amet
+                            temporibus tenetur debitis accusantium fugit aliquam itaque facere.</p>
+                    </div>
+                    <div class="blog-user-detail">
+                        <div class="user-name">
+                            <button>J</button>
+                            <h4>Janice Schimmel
+                                <p>Sep, 03 2024</p>
+                            </h4>
+
+                        </div>
+                        <div class="user-readtime">
+                            <p>12 mins to read</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-card-pic">
+                        <img src="images\blog-pic2.webp" alt="">
+                    </div>
+                    <div class="blog-btns">
+                        <button>New</button>
+                        <button>Event</button>
+                    </div>
+                    <div class="blog-title">
+                        <h3>39 Strengths and Weaknesses To discuss in a job Interview</h3>
+                    </div>
+                    <div class="blog-des">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis quia amet
+                            temporibus tenetur debitis accusantium fugit aliquam itaque facere.</p>
+                    </div>
+                    <div class="blog-user-detail">
+                        <div class="user-name">
+                            <button>J</button>
+                            <h4>Janice Schimmel
+                                <p>Sep, 03 2024</p>
+                            </h4>
+
+                        </div>
+                        <div class="user-readtime">
+                            <p>12 mins to read</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="blog-card">
+                    <div class="blog-card-pic">
+                        <img src="images\blog-pic3.jpg" alt="">
+                    </div>
+                    <div class="blog-btns">
+                        <button>New</button>
+                        <button>Event</button>
+                    </div>
+                    <div class="blog-title">
+                        <h3>21 Job Interview Tips: How To Make a Great Impression</h3>
+                    </div>
+                    <div class="blog-des">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores officiis quia amet
+                            temporibus tenetur debitis accusantium fugit aliquam itaque facere.</p>
+                    </div>
+                    <div class="blog-user-detail">
+                        <div class="user-name">
+                            <button>J</button>
+                            <h4>Janice Schimmel
+                                <p>Sep, 03 2024</p>
+                            </h4>
+
+                        </div>
+                        <div class="user-readtime">
+                            <p>12 mins to read</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--find jobs section-->
+        <div class="million-job-section">
+            <div class="million-job-inner">
+                <div class="job-left">
+                    <div class="left-pic1"></div>
+                    <div class="left-pic2"></div>
+                    <div class="left-pic3"></div>
+                </div>
+                <div class="job-right">
+                    <div class="right-heading">
+                        <h1>Million Of Jobs.</h1>
+                        <h2>Find The One That's Right For You</h2>
+                    </div>
+                    <div class="right-para">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore quaerat corrupti quos sunt
+                            nemo libero quas eos quidem nulla perferendis. Lorem ipsum dolor sit amet consectetur
+                            adipisicing elit. Maxime molestiae, harum, libero impedit odio hic debitis ut, fuga dolore
+                            earum aspernatur nam dolor enim cupiditate consectetur atque suscipit laborum! Sit!</p>
+                    </div>
+                    <div class="right-btns">
+                        <button class="right-btn1">Search Jobs</button>
+                        <button class="right-btn2">Learn more</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="subscribe-container">
+            <div class="subscribe-wrapper">
+                <div class="subscribe-inner">
+                    <div class="subscribe-box1">
+                        <div class="box1-pic"></div>
+                        <div class="box2-pic"></div>
+                        <div class="box3-pic"></div>
+                    </div>
+                    <div class="subscribe-box2">
+                        <div class="subscribe-heading">
+                            <h1>New Things Will Always Update Regularly</h1>
+                        </div>
+                        <div class="subscribe-form">
+                            <form action="">
+                                <div class="inp-box">
+                                    <span> <i class="fa-solid fa-envelope"></i></span>
+                                    <input type="text" name="" id="" placeholder="Enter your Email">
+                                </div>
+                                <div class="btn-box">
+                                    <button><span><i class="fi fi-rr-badge-check"></i></span> Subscribe</button>
+
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="subscribe-box1">
+                        <div class="box1-pic"></div>
+                        <div class="box2-pic"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--footer-->
+        <div class="footer-container">
+            <div class="footer-wrapper">
+                <div class="foot-box1">
+                    <p><span class="" style="color: black; font-size: 20px;">Demo </span>Lorem ipsum, dolor sit amet
+                        consectetur adipisicing elit. Totam blanditiis odio
+                        cum dicta labore placeat illo magnam voluptate quos repudiandae?</p>
+                    <div class="foot-contact-icons">
+                        <button><i class="fa-brands fa-facebook"></i></button>
+                        <button><i class="fa-brands fa-linkedin"></i></button>
+                        <button><i class="fa-brands fa-twitter"></i></button>
+                    </div>
+                </div>
+                <div class="foot-box2 foot-items">
+                    <h1>Resource</h1>
+                    <ul>
+                        <li><a href="">About Us</a></li>
+                        <li><a>Our Team</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="foot-box3  foot-items">
+                    <h1>Community</h1>
+                    <ul>
+                        <li><a href="">Feature</a></li>
+                        <li><a href="">Pricing</a></li>
+                        <li><a href="">Credit</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="foot-box4  foot-items">
+                    <h1>Quick links</h1>
+                    <ul>
+                        <li><a href="">iOS</a></li>
+                        <li><a href="">Android</a></li>
+                        <li><a href="">Microsoft</a></li>
+                        <li><a href="">Desktop</a></li>
+                    </ul>
+                </div>
+                <div class="foot-box5  foot-items">
+                    <h1>More</h1>
+                    <ul>
+                        <li><a href="">Cookie Policy</a></li>
+                        <li><a href="">Terms</a></li>
+                        <li><a href="">FAQ</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./app.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
