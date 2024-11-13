@@ -23,6 +23,7 @@ ul {
     margin-top: 0;
     margin-bottom: 0 !important;
     padding-left: 0 !important;
+    list-style: none;
 }
 
 
@@ -49,7 +50,14 @@ ul {
 .main-container {
     overflow-x: hidden;
 }
-
+.cursor-circle{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #4294FF;
+    border-radius: 50%;
+   position: fixed;
+   z-index: 1000;
+}
 /*scroll to top button*/
 .scroll-to-top {
     background-color: white;
@@ -251,7 +259,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90%;
+    height: 100%;
     color: white;
     font-size: 30px;
 }
@@ -849,5 +857,8 @@ color: var(--primary-color);
 
     form .btn-box button {
         padding: 10px 8px;
+    }
+    .cursor-circle{
+        display: none;
     }
 }

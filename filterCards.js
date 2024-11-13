@@ -4,7 +4,30 @@ let filterSidebar = document.getElementById('filter-sidebar');
 let closedFilterSidebar = document.getElementById('closedFilterSidebar');
 let filterBgOverlay = document.getElementById('filterSidebarBgOverlay');
 
+let cursorPointer = document.querySelector('.cursor-circle');
+let mainContainer = document.querySelector('.main-container');
+mainContainer.addEventListener('mousemove',(e)=>{
+gsap.to(cursorPointer,{
+    x:e.x,
+    y:e.y,
+    duration:1,
+    ease:"back.out",
+})
+})
+gsap.from('.hero-title h1',{
+    opacity:0,
+    duration:2,
+    delay:1,
+    y:300,
+})
 
+gsap.from(".scroll-to-top", {
+    y: -20,
+    repeat: -1,
+    yoyo: true, 
+    duration: 1,
+    ease: "power1.inOut"
+});
 function filterBtnToggle() {
     filterSidebar.classList.toggle('activeFilterSidebar');
     body.classList.add('overflow-hidden');

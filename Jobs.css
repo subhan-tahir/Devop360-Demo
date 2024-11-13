@@ -24,7 +24,14 @@
     width: 50px;
     border-radius: 20px;
 }
-
+.cursor-circle{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #4294FF;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1000;
+}
 .filter-bg-overlay {
     position: fixed;
     top: 0;
@@ -59,6 +66,7 @@ ul {
     margin-top: 0;
     margin-bottom: 0 !important;
     padding-left: 0 !important;
+    list-style: none;
 }
 
 p {
@@ -1376,5 +1384,8 @@ color: var(--primary-color);
 
     .filter-btn {
         visibility: visible !important;
+    }
+    .cursor-circle{
+        display: none;
     }
 }

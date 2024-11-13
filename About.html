@@ -19,6 +19,7 @@
 
 <body>
     <div class="main-container">
+        <div class="cursor-circle"></div>
         <div id="sidebarBgOverlay" class="filterBg" onclick="closedSidebar()"></div>
         <!--Hero section-->
         <!--scroll-to-top-->
@@ -104,7 +105,7 @@
                         scelerisque rhoncu</p>
                 </div>
                 <div class="work-cards row">
-                    <div class="card-inner  col-xl-2">
+                    <div class="card-inner  col-xl-2" id="workCard1">
                         <div><img src="images\account 1.png" alt=""></div>
                         <div class="card-header">
                             <h1>Create Account</h1>
@@ -113,7 +114,7 @@
                             <p>Nunc sed a nisl purus. Nibh dis faucibus proin lacus </p>
                         </div>
                     </div>
-                    <div class="card-inner  col-xl-2">
+                    <div class="card-inner  col-xl-2"  id="workCard2">
                         <div><img src="images\cv(1) 1.png" alt=""></div>
                         <div class="card-header">
                             <h1>Create Account</h1>
@@ -122,7 +123,7 @@
                             <p>Nunc sed a nisl purus. Nibh dis faucibus proin lacus </p>
                         </div>
                     </div>
-                    <div class="card-inner  col-xl-2">
+                    <div class="card-inner  col-xl-2" id="workCard3">
                         <div><img src="images\briefcase(3) 1.png" alt=""></div>
                         <div class="card-header">
                             <h1>Create Account</h1>
@@ -131,7 +132,7 @@
                             <p>Nunc sed a nisl purus. Nibh dis faucibus proin lacus </p>
                         </div>
                     </div>
-                    <div class="card-inner  col-xl-2">
+                    <div class="card-inner  col-xl-2" id="workCard4">
                         <div><img src="images\check-mark 1.png" alt=""></div>
                         <div class="card-header">
                             <h1>Create Account</h1>
@@ -354,7 +355,7 @@
         </div>
     </div>
 
-    <script src="app.js"></script>
+ 
     <!-- <script src="filterCards.js"></script> -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
         integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
@@ -362,6 +363,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
         integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="app.js"></script>
+        <script src="about.js"></script>    
 </body>
 
 </html>

@@ -53,22 +53,22 @@ navLinkEls.forEach((navLink) => {
 })
 
 console.log(header);
-let duration = 2000; // duration in milliseconds for all counters to complete
+let duration = 2000; 
 valueDisplays.forEach((valueDisplay) => {
     let startValue = 0;
-    let endValue = parseInt(valueDisplay.innerHTML); // Parse the value as an integer
+    let endValue = parseInt(valueDisplay.innerHTML); 
     console.log(typeof endValue);
 
-    let increment = endValue / (duration / 30); // Calculate increment based on duration
+    let increment = endValue / (duration / 30); 
     console.log(increment);
 
     let counter = setInterval(function () {
         startValue += increment;
-        let formattedNumber = Math.floor(startValue).toLocaleString(); // Use Math.floor to avoid decimals
+        let formattedNumber = Math.floor(startValue).toLocaleString(); 
         valueDisplay.textContent = formattedNumber;
-
-        if (startValue >= endValue) { // Ensure it stops exactly at the end value
-            valueDisplay.textContent = endValue.toLocaleString(); // Set the final value
+        
+        if (startValue >= endValue) { 
+            valueDisplay.textContent = endValue.toLocaleString(); 
             clearInterval(counter);
         }
     }, 30);
