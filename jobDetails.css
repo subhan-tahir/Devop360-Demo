@@ -805,6 +805,10 @@ color: var(--primary-color);
 
 
 @media screen and (max-width:768px) {
+    .whop-bottom-card{
+        flex-wrap:wrap;
+        justify-content:center;
+    }
     .header-wrapper {
         padding: 20px 15px !important;
     }
